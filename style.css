@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#gamebox{
+    margin: auto;
+    height: 400px;
+    border: black solid 4px;
+    width: 750px;
+    overflow: hidden;
+}
+    #ground{
+        position: relative;
+        top: 325px;
+        width: 15 0%;
+        height: 80px;
+        border-top: 4px black;
+        border-top-style: dashed;
+    }
+        #dino{
+            /* border: 1px solid black; */
+            height: 50px;
+            width: auto;
+            position: relative;
+            top:10px ;
+            left:30%;
+        }
+        .cactus{
+            /* border: black 1px solid; */
+            height: 70px;
+            width: auto;
+            position: relative;
+            top: -72px;
+            left:750px;
+        }
+#scorebox{
+    width: 20%;
+    height: 20px;
+    border: 2px solid black;
+    position: relative;
+    left: 550px;
+    top: -50px;
+}
